@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+}
+
+#para1 {
+ font-size:18px;
+ color: #3B1709;
+ text-shadow: 2px 2px 8px #000000;
+}
+
+#para2 {
+ font-size:18px;
+ color: #3B1709;
+ text-shadow:2px 2px 8px #000000;
+}
+
+#para3 {
+ font-size:18px;
+ color: #81F7F3;
+ text-shadow:4px 4px 4px #000000;
+}
+
+#info {
+  font-size:18px;
+  color:#81F7F3;
+}
+
+#title {
+    color:#81F7F3;
+    text-shadow:6px 6px 6px #000020;
+}
