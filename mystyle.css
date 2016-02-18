@@ -11,26 +11,39 @@
     color: lightblue;
     font-size:18px;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
-   
-} 
-
+    overflow: hidden;
+    background-color: #0;
+}
 li {
     display: inline;
 }
-
+a {
+    display: block;
+    padding: 8px;
+    background-color: #000066;
+}
+li {
+   float: left; 
+}
 li a {
     display: block;
-    width: 60px;
-     background-color:white;
-    color:black;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #000066;
+    color: #00ccff;
+    text-decoration:none;
 }
-
+.active {
+    background-color: #3366ff;
+}
+/*Change the link color to #3366ff (black) on hover */
+li a:hover {
+    background-color: #3366ff;
+}
 #para1 {
  font-size:18px;
  color: #3B1709;
@@ -41,12 +54,6 @@ li a {
  font-size:18px;
  color: #3B1709;
  text-shadow:2px 2px 8px #000000;
-}
-
-#para3 {
- font-size:18px;
- color: #81F7F3;
- text-shadow:4px 4px 4px #000000;
 }
 
 #info {
